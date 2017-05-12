@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js"
+      ],
+	  "vendor": [
+        "../../plugins/jquery-smooth-scroll/js/jss-script.min.js",
+		"../../plugins/contact-form-7/includes/js/scripts.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+	  "vendor": [
+        "../../plugins/jquery-smooth-scroll/css/jss-style.css",
+		"../../plugins/contact-form-7/includes/css/styles.css"
+      ],
+	  
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    }
+  },
+  "config": {
+    "devUrl": "http://localhost/jeanvilar/"
+  }
+}

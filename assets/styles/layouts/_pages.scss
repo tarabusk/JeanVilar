@@ -1,0 +1,38 @@
+h1{font-weight: bold;
+    font-size: 25px;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #000000;
+	}
+	
+h1,h2,h3,h4{font-family:$two-font-family;}  
+a, a:hover,a:focus{color : $text-selection;}
+a:focus, a:hover {text-decoration:none;}
+img{max-width:100%;height:inherit;}
+.page-header img{max-width:100%;margin-bottom:20px;}
+.nav-previous{float:left;}
+.nav-next{float:right;}
+main{margin-bottom:200px;}
+.home{cursor: url("../images/souris-lien.png"), pointer;} 
+
+.img_head_lgd{color:$text-selection;text-align:right;font-style:italic;margin-bottom:20px;}
+
+input[type="submit"] {background:$text-selection;width:inherit;text-transform:uppercase;float:left;border:0;color:#fff;padding: 5px 20px;} 
+input[type="submit"]:hover{background:$text-color;}
+form input, form textarea, form label{width:100%;}
+form input, form textarea{border:1px solid #eaeaea;}
+form p {margin:0;}
+
+.blog h2{ font-family: $base-font-family;font-weight: bold;font-size: 25px; padding-bottom:20px;}
+.blog .wp-post-image{padding-bottom:15px;}
+.blog article{margin-bottom:60px;}
+
+.row-soutien{font-weight:bold;margin-top:20px;margin-bottom:20px;font-size: 18px;font-family: Crimson Text,serif;font-weight: 600;}
+
+
+
+
+
+
+
+

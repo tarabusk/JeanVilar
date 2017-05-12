@@ -1,0 +1,51 @@
+body{font-family:$base-font-family;font-size:$base-font-size;line-height:$base-line-height;cursor: url("../images/souris.png"), pointer;}
+a, a:hover{cursor: url("../images/souris-lien.png"), pointer;}
+div{box-sizing:border-box;max-width:100%;}
+.container {
+    width: 1280px;
+	padding-left:30px;
+	padding-right:30px;
+}
+.content{width:945px;margin:auto;max-width:100%;} 
+.contenu-etroit{width:720px;margin:auto;max-width:100%;} 
+
+.banner:after{content:"";display:block;width:720px;height:1px;background:rgba(0,0,0,.1); max-width:100%;margin:15px auto;}
+.accueil .banner:after, .home .banner:after{background:transparent;}
+img{max-width:100%;}
+
+/* Add/remove floats */
+
+.float-right {  float: right; } 
+.float-left {  float: left; } 
+.float-none {  float: none; } 
+.clear {  clear: both; }
+
+
+.row-galerie {
+    margin: 0;
+}
+.galerie-legende {
+    margin-bottom: 28px;
+    font-size: 18px;
+}
+/* Text alignment */
+
+.text-left {  text-align: left; } 
+.text-center {  text-align: center; } 
+.text-right {  text-align: right; }
+
+/* Apply capital case to an element */
+.caps {  text-transform: uppercase; }
+
+@media only screen and (max-width:768px){
+body{ font-size:$base-font-size-sm;line-height:$base-line-height-sm;}
+.container {
+    width: 1280px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+
+
+
